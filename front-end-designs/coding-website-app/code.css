@@ -1,0 +1,130 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.image-container {
+
+    width: 100%; 
+    height: 100vh; 
+    background-image: linear-gradient(90deg, rgba(131,58,180,0.6) 0%, rgba(253,29,29,0.8) 50%, rgba(252,176,69,0.6) 100%)
+    , url('./blog-back.jpg'); 
+    background-position: center;
+    background-size: cover; 
+    overflow-x: hidden;
+    position: relative;
+}
+
+.navbar {
+    width: 80%; 
+    height: 8vh;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto; 
+    
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+ul {
+    display: flex; 
+    flex-direction: row;
+}
+.nav-links a {
+    padding-left: 20px;
+    text-decoration: none;
+
+    font-size: 25px; 
+    font-weight: 500;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+.middle-content-writing h1 {
+    color: white; 
+    font-size: 50px; 
+    font-weight: 600;
+    
+}
+
+span {
+    color: #fcb045;
+    font-weight: 700;
+}
+
+
+.middle-content-writing {
+    
+    margin-top: 200px; 
+    margin-left: 100px;
+}
+
+
+.explore-button .exp-btn {
+    margin-left: 100px;
+    margin-top: 25px;
+    width: 150px; 
+    height: 40px;
+    border: 3px solid #fcb045;
+    background: transparent; 
+    color: white;
+    padding: 2px 4px 2px 4px;
+    font-size: 17px; 
+    font-weight: 400;
+    border-radius: 2px;
+    cursor: pointer;
+    
+
+}
+
+.introduction-title {
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    margin-left: 40%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cards-container {
+    width: 80%; 
+    height: 90vh; 
+    
+    margin: auto;
+    margin-top: 50px;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.cards-container .card {
+
+    width: 30%; 
+    height: 45%; 
+    background: #ecf0f1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: -1px 7px 47px -15px rgba(227,118,98,0.75);
+}
+
+.card img {
+    width: 100%; 
+    height: 50%;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
